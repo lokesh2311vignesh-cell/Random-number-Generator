@@ -1,0 +1,62 @@
+.main-container {
+  min-height: 100vh;
+  background-color: #E9E3DA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.card {
+  background-color: white;
+  width: 340px;
+  padding: 40px 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.title {
+  color: #A99E93;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  color: #A99E93;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.message {
+  color: #7A0C2E;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.number {
+  font-size: 48px;
+  font-weight: 800;
+  color: #000;
+  margin: 0 0 25px 0;
+  font-family: serif;
+}
+
+.gen-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

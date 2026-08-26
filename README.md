@@ -1,57 +1,16 @@
-🎲 Random Number Generator
+# React + Vite
 
-A simple and interactive Random Number Generator website built using React.js, JavaScript, HTML, and CSS. The application allows users to generate random numbers within a selected range through a clean and user-friendly interface.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-✨ Features
-🎯 Generate random numbers instantly
-🔢 Choose a minimum and maximum range
-⚡ Fast and responsive
-🎨 Clean and simple user interface
-📱 Works across different screen sizes
-⚛️ Built with React components
-🛠️ Technologies Used
-React.js
-JavaScript
-HTML5
-CSS3
-Vite (if you used Vite)
-📂 Project Structure
-Random-Number-Generator/
-│
-├── src/
-│   ├── App.jsx
-│   └── App.css
-│
-├── index.html
-├── package.json
-└── README.md
+Currently, two official plugins are available:
 
-🚀 Getting Started
-1. Clone the repository
-git clone https://github.com/your-username/random-number-generator.git
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-2. Navigate to the project folder
-cd random-number-generator
+## React Compiler
 
-3. Install dependencies
-npm install
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-4. Start the development server
-npm run dev
+## Expanding the Oxlint configuration
 
-
-Open the local URL shown in your terminal to view the website.
-
-🎯 How It Works
-
-The application uses React state and JavaScript's random number functionality to generate a number based on the user's selected range.
-
-📌 Future Improvements
-Add number generation animations
-Add dark mode
-Add a history of generated numbers
-Add an option to generate multiple numbers
-Improve UI and accessibility
-📄 License
-
-This project is open-source and available for learning and personal use.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
